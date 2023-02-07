@@ -1,6 +1,6 @@
-
 ```mermaid
-  POST }|--|{ CATEGORIES : types
+ erDiagram
+    POST }|--|{ CATEGORIES : types
        CATEGORIES {
         unsigned  id
         int  parent_id
@@ -77,4 +77,6 @@
         
     }
 
+      
 ```
+
